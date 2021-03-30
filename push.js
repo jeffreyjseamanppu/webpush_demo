@@ -1,7 +1,6 @@
 var push = require('web-push');
 
-//let vapidkeys = push.generateVAPIDKeys()
-//console.log(vapidkeys);
+
 
 let vapidkeys = {
     publickey: 'BNgHZEeaNeI4M9c4r1FaMkUSLI2rKOBWcJGw-mGh2t5lHBjJngaHJJAXzMhlrqVlgNflL4Fa1MEhi93BM5DPHWk',
