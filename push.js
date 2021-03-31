@@ -9,6 +9,14 @@ let vapidkeys = {
 
 push.setVapidDetails('mailto:jseaman@pointpark.edu', vapidkeys.publickey, vapidkeys.privatekey)
 
-let sub = {};
+//Firefox
+let sub = {
+    endpoint:'https://updates.push.services.mozilla.com/wpush/v1/gAAAAABgY…2Cn9-YMqmBSAnZ1wsIN6qxK48i8q7fHF7vIO2bTJIz6zHPAGHCHdTAbwstXX',
+    expirationTime: null,
+    keys: {
+        p256dh:'BKLdodGPKXQYbEm0_B1FiMsyLlIscN-YLJ7Bo5XRFoW75IFPo4euEjix-sdRKywJhHmiz43l7ftrKKBs8PFfwJs',
+        auth:'bImh4DR7_fN43flIzGEryA'
+    }
+};
 
 push.sendNotification(sub, 'Welcome to Friday');
